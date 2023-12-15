@@ -14,11 +14,12 @@ export class CarritoService {
       this.calcularTotal();
     };
    }
-
-  carrito:Carrito[] = []
-  totalCarrito: number = 0;
-
-  agregarProducto(producto:Producto, cantidad:number){
+   
+   carrito:Carrito[] = []
+   totalCarrito: number = 0;
+   totalConDescuento = 0;
+   
+   agregarProducto(producto:Producto, cantidad:number){
     const index = this.carrito.findIndex(item => item.producto.id === producto.id);
     if(index > -1) {
       this.carrito[index].cantidad++; 
@@ -62,7 +63,7 @@ export class CarritoService {
     this.totalCarrito = 0;
     this.carrito.forEach(item => {
       this.totalCarrito = this.totalCarrito + item.producto.precio * item.cantidad;
-    });
+    })
     this.calcularDescuento();
   }
 
@@ -79,7 +80,7 @@ export class CarritoService {
     Dirección de envío: DIRECCION DE EJEMPLO`;
     return encodeURI(primeraParte+ultimaParte);
   }
-  calcularDescuento() {
+    calcularDescuento() {
       const umbralDescuento = 5000;
       const porcentajeDescuento = 0.1;
       
@@ -88,4 +89,6 @@ export class CarritoService {
       } else {
         this.totalConDescuento = this.totalCarrito
       }
+      
+  }
 }
