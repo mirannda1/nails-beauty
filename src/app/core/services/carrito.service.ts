@@ -62,7 +62,8 @@ export class CarritoService {
     this.totalCarrito = 0;
     this.carrito.forEach(item => {
       this.totalCarrito = this.totalCarrito + item.producto.precio * item.cantidad;
-    })
+    });
+    this.calcularDescuento();
   }
 
   generarMensaje(){
@@ -78,6 +79,13 @@ export class CarritoService {
     Dirección de envío: DIRECCION DE EJEMPLO`;
     return encodeURI(primeraParte+ultimaParte);
   }
-
-
+  calcularDescuento() {
+      const umbralDescuento = 5000;
+      const porcentajeDescuento = 0.1;
+      
+      if (this.totalCarrito > umbralDescuento) {
+        this.totalConDescuento = this.totalCarrito - this.totalCarrito * porcentajeDescuento;
+      } else {
+        this.totalConDescuento = this.totalCarrito
+      }
 }
