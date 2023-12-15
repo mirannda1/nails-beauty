@@ -91,7 +91,7 @@ export const CATEGORIAS: Categoria[] = [
         precio: 800,
         incluye: ['En Nails&Co podés darle un toque final a tus uñas con nuestro servicio de DECORACIÓN. Nuestras Nails Artist están capacitadas para realizar el diseño qué más te guste, tus uñas no sólo van a ser perfectas, sino también ¡únicas!'],
         imagen:
-          'https://www.cronica.com.ar/__export/1653520801548/sites/cronica/img/2021/06/17/chocotorta_2_crop1623944104124.jpg_792575817.jpg',
+          'https://nailsandco.com.ar/wp-content/uploads/2019/05/Nails_web_servicios_manucure-express-copia-8-2.png',
       },
       {
         id: 9,
@@ -100,7 +100,7 @@ export const CATEGORIAS: Categoria[] = [
         precio: 800,
         incluye: ['¡Disfruta de la duración y el brillo tipo gel en una fórmula fácil de esmaltar! El sistema profesional de esmalte de larga duración OPI Infinite Shine de 3 pasos proporciona un color intenso y duradero que no requiere luz para su curado.'],
         imagen:
-          'https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_ipk5fgqbdh_eg-pf-platos-turron-de-avena-hi-03.jpg',
+          'https://nailsandco.com.ar/wp-content/uploads/2019/05/Nails_web_servicios_manucure-express-copia-7-1.png',
       },
     ],
   },
@@ -117,7 +117,7 @@ export const CATEGORIAS: Categoria[] = [
         precio: 100,
         incluye: ['Las uñas esculpidas son una gran solución para dejar de dañar tus uñas y qué crezcan sanas y fuertes. Se les dá la forma y extensión qué el cliente prefiera. Tus manos se verán perfectas y naturales instantáneamente.'],
         imagen:
-          'https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3040004_f.jpg',
+          'https://nailsandco.com.ar/wp-content/uploads/2019/05/Nails_web_servicios_manucure-express-copia-11-1.png',
       },
       {
         id: 11,
@@ -126,7 +126,7 @@ export const CATEGORIAS: Categoria[] = [
         precio: 100,
         incluye: ['Disfrutá en todas las sucursales Nails&Co de nuestro servicio VIP, especialmente pensado para vos, porque tu tiempo es importante, te hacemos manos y pies juntos, reduciendo así la duración del turno a la mitad. ¡Manos y pies perfectos en 30 minutos!'],
         imagen:
-          'https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/3040783_f.jpg',
+          'https://nailsandco.com.ar/wp-content/uploads/2019/05/Nails_web_servicios_manucure-express-copia-10-1.png',
       },
       {
         id: 12,
@@ -135,7 +135,7 @@ export const CATEGORIAS: Categoria[] = [
         precio: 100,
         incluye: ['Seguimos creciendo para vos, por eso ahora vas a encontrar en locales Nails&Co especializados el nuevo espacio BEAUTY, con servicios exclusivos para tu rostro y cuerpo: Perfilado de cejas, Tinte y permanente de pestañas, higiene facial, masajes, depilación y mucho más.'],
         imagen:
-          'https://carrefourar.vtexassets.com/arquivos/ids/332920/7790895648670_E02.jpg?v=638212197029330000',
+          'https://nailsandco.com.ar/wp-content/uploads/2019/05/Nails_web_servicios_manucure-express-copia-9-1.png',
       },
     ],
   },
